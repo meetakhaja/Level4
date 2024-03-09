@@ -180,7 +180,7 @@ body {
 #page3 > h2 {
   font-size: 13px;
   font-weight: 400;
-  padding: 4vw 2vw;
+  padding: 2vw 2vw;
 }
 #moving-text {
   white-space: nowrap;
@@ -275,7 +275,6 @@ body {
 #page3 {
   min-height: 100vh;
   width: 100%;
-  padding: 4vw 0vw;
   background-color: #efeae3;
 }
 .elem {
@@ -333,19 +332,18 @@ body {
 #page3-bottom {
   min-height: 100vh;
   width: 100%;
-  padding: 4vw 2vw;
-  padding-bottom: 2vw;
+  padding: 0 2vw;
 }
 #bottom1 {
   display: flex;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   background-color: black;
   border-radius: 25px;
   z-index: 1;
 }
 #bottom11 {
-  width: 40%;
+  width: 45%;
   padding: 10vw 8vw;
 }
 #bottom11-h4 {
@@ -362,9 +360,12 @@ body {
   line-height: 22px;
 }
 #bottom12 {
-  width: 70%;
+  width: 55%;
+}
+#bottom12 img {
+  width: 100%;
+  height: 100%;
   border-radius: 25px;
-  background-image: url(/img/img-center.webp);
   background-position: center;
   background-size: cover;
   z-index: 2;
@@ -373,8 +374,7 @@ body {
   height: 75%;
   width: 100%;
   background-color: #efeae3;
-  padding: 3vw 3vw;
-  padding-top: 0%;
+  padding: 2vw 2vw;
 }
 #page4 .ri-circle-fill {
   color: #fe330a;
@@ -557,13 +557,12 @@ body {
     font-size: 15.75px;
     font-weight: 400;
     color: black;
-    border: 1px solid rgba(50, 50, 50, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 50px;
-    padding: 2.5vw 6vw;
+    padding: 3vw 6vw;
   }
   #page1text {
     padding: 12vw 5vw;
-    /* padding-bottom: 6vw; */
     height: 60vh;
     width: 100%;
     display: flex;
@@ -650,7 +649,7 @@ body {
   #page3 > h2 {
     font-size: 13px;
     font-weight: 400;
-    padding: 4vw 2vw;
+    padding: 10vw 2vw;
   }
   #moving-text {
     white-space: nowrap;
@@ -715,9 +714,8 @@ body {
   }
   #bottom-right img {
     height: 25vh;
-    border-radius: 0%;
+    border-radius: 5%;
     margin-top: 25px;
-    padding-right: 75px;
   }
   #bottom-right p {
     margin-top: 5vh;
@@ -794,7 +792,7 @@ body {
     background-size: cover;
   }
   #page3-bottom-heading {
-    padding: 6vw 2vw;
+    padding: 10vw 2vw;
   }
   #page3-bottom-heading h4 a {
     font-size: 16.8px;
@@ -839,9 +837,12 @@ body {
     line-height: 14px;
   }
   #bottom12 {
-    width: 70%;
-    border-radius: 25px;
-    background-image: url(/img/img-center.webp);
+    width: 100%;
+  }
+  #bottom12 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
     background-position: center;
     background-size: cover;
     z-index: 2;
@@ -859,7 +860,7 @@ body {
   #page4 h2 {
     font-size: 13px;
     font-weight: 400;
-    padding: 5vw 5vw;
+    padding: 10vw 2vw;
   }
   #page4 p {
     padding-top: 1vw;
@@ -875,7 +876,6 @@ body {
   .swiper {
     width: 100%;
     height: 100%;
-    padding-bottom: 5vw;
   }
   .swiper-slide {
     height: 90%;
